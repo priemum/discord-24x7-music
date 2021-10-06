@@ -10,7 +10,7 @@ app.listen(process.env.PORT);
 setInterval(() => {
   https.get('');//repl 
 }, 1);
-
+ 
 var shell = require('shelljs');
   
 shell.exec('nohup java -Dnogui=true -jar live.jar &')
